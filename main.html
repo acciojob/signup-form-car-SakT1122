@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form id="form" method="post">
+	<form id="my-form" method="post">
 		<div>
 		<label for="name">1.Name</label>
 		<input type="text" id="name" placeholder="Name" required>
@@ -26,7 +26,7 @@
 			<input type="radio" id="gender_f" name="gender" required>
 		</div>
 		<div>
-			<lable for="cars">4.Car Brands</lable>
+			<lable for="cars">4.Choose your car</lable>
 			<select name="cars" id="cars" required>
 				<option value="" disabled selected>--Please choose an option--</option>
 				<option>BMW</option>
@@ -44,7 +44,7 @@
 		</div>
 		<div>
 			<lable for="phone_no">7.Phone Number</lable>
-			<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+			<input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
 		</div>
 		<div>
 			<lable for="password">8.Password</lable>
@@ -52,7 +52,7 @@
 		</div>
 		<div>
 			<label for="tos"></label>
-			<input type="checkbox" name="tos" id="tos"> <br>I agree to the TOS<br>
+			<input type="checkbox" name="tos" id="tos" required> <br>I agree to the TOS<br>
 		</div>
 		<div>
 			<button type="submit">Submit</button>
